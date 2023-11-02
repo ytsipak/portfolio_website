@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-white font-noto;
+  }
+
+  @font-face {
+    font-family: Soft Soul;
+    src: url("./fonts/SoftsoulOT-Ultra.woff");
+  }
+
+  @font-face {
+    font-family: Soft Soul;
+    src: url("./fonts/SoftsoulOT-Ultra.woff2");
+  }
+
+  @font-face {
+    font-family: East Broadway;
+    src: url("./fonts/EastBroadway-MediumBlack.otf");
+  }
+
+  @font-face {
+    font-family: Muscle;
+    src: url("./fonts/Muscle-Narrow.otf");
+  }
+
+  @font-face {
+    font-family: Actor;
+    src: url("./fonts/Actor-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: Noto;
+    src: url("./fonts/NotoSansJP-VariableFont_wght.ttf");
+  }
+}
+
+@layer components {
+  .title {
+    @apply text-9xl font-muscle;
+  }
+
+  .title-border {
+    @apply border-4 border-black border-dashed rounded-3xl px-5;
+  }
+
+  .section {
+    @apply bg-secondary-darkgrey p-32 uppercase;
+  }
+
+  .hero-gradient {
+    @apply before:absolute before:w-[880px] before:h-[880px] before:blur-[153px] before:left-[calc((100%-880px)/2)] before:bg-gradient-to-b before:from-white before:to-white before:opacity-5;
+  }
+
+  .wrapper {
+    @apply mx-auto my-0 w-full max-w-[1240px];
+  }
+
+  .caramel-background {
+    @apply bg-[url('./assets/images/caramel-2xl.png')] bg-cover bg-no-repeat;
+  }
+}
+/* 
+left: calc(100% - 75%);
+top: 9%; */
