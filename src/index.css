@@ -7,6 +7,10 @@
     @apply text-white font-noto;
   }
 
+  html {
+    @apply scroll-smooth;
+  }
+
   @font-face {
     font-family: Soft Soul;
     src: url("./fonts/SoftsoulOT-Ultra.woff");
@@ -61,6 +65,14 @@
 
   .caramel-background {
     @apply bg-[url('./assets/images/caramel-2xl.png')] bg-cover bg-no-repeat;
+  }
+
+  .sunshineBlue {
+    @apply bg-[url('./assets/images/sunshineBlue.png')];
+  }
+
+  .sunshinePink {
+    @apply bg-[url('./assets/images/sunshinePink.png')];
   }
 }
 /* 
