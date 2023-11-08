@@ -24,6 +24,6 @@ export const softSkills = [
 
 export const contactIcons = [
   { href: "mailto:ytsipak@gmail.com", fill: "yellow", path: "gmail" },
-  { href: "", fill: "yellow", path: "linkedin" },
-  { href: "", fill: "yellow", path: "github" },
+  { href: "https://github.com/ytsipak", fill: "yellow", path: "linkedin" },
+  { href: "https://linkedin.com/in/ytsipak", fill: "yellow", path: "github" },
 ];
