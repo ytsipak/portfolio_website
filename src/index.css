@@ -68,7 +68,7 @@
   }
 
   .sunshineBlue {
-    @apply bg-[url('./assets/images/sunshineBlue .png')];
+    @apply bg-[url('./assets/images/sunshineBlue.png')];
   }
 
   .sunshinePink {

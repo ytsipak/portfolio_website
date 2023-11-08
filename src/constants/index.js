@@ -21,3 +21,9 @@ export const softSkills = [
   { language: "Teamwork", skill: "soft" },
   // { language: "Accounability", skill: "soft" },
 ];
+
+export const contactIcons = [
+  { href: "mailto:ytsipak@gmail.com", fill: "yellow", path: "gmail" },
+  { href: "", fill: "yellow", path: "linkedin" },
+  { href: "", fill: "yellow", path: "github" },
+];
