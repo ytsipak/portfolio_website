@@ -1,5 +1,4 @@
 import {Button} from '../components';
-import icons from '../assets/icons/icons.svg';
 import {contactIcons} from '../constants';
 
 const Contact = () => {
@@ -8,11 +7,8 @@ const Contact = () => {
       <div className="wrapper">
         <h2 className="title text-center mb-52">
           Get
-          {' '}
           <span className="text-primary-pink"> in Touch</span>
-          {' '}
           <br />
-          {' '}
           with <span className="text-primary-blue"> Me</span>
         </h2>
         <div className="flex justify-between items-center">
@@ -27,8 +23,12 @@ const Contact = () => {
                 className="flex items-center justify-center w-10 h-10 rounded-full border-2 border-primary-yellow p-5"
               >
                 <a href={item.href}>
-                  <svg fill={item.fill} width="30px" height="30px">
-                    <use href={`${icons}#icon-${item.path}`} />
+                  <svg
+                    className={`fill-${item.fill}`}
+                    width="30px"
+                    height="30px"
+                  >
+                    <use href={item.path} />
                   </svg>
                 </a>
               </li>

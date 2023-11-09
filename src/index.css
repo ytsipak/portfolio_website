@@ -52,7 +52,7 @@
   }
 
   .section {
-    @apply bg-secondary-darkgrey p-32 uppercase;
+    @apply bg-secondary-darkgrey p-24 uppercase;
   }
 
   .hero-gradient {

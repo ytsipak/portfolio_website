@@ -26,6 +26,7 @@ const Skills = () => {
                       key={item.language}
                       language={item.language}
                       description={item.skill}
+                      img={item.iconUrl}
                     />
                   ))}
                 </div>
@@ -42,6 +43,7 @@ const Skills = () => {
                       key={item.language}
                       language={item.language}
                       description={item.skill}
+                      img={item.iconUrl}
                     />
                   ))}
                 </div>

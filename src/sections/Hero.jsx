@@ -1,6 +1,5 @@
 import {Button} from '../components';
-import hero_computer from '../assets/images/hero_computer.png';
-import hero_phone from '../assets/images/hero_phone.png';
+import {heroComputer, heroPhone} from '../assets/images';
 
 const Hero = () => {
   return (
@@ -11,20 +10,14 @@ const Hero = () => {
       <div className="wrapper flex flex-col justify-center items-center z-10 relative">
         <img
           className="w-[250px] h-[250px] absolute left-32 bottom-4 rotate-[20deg]"
-          src={hero_computer}
+          src={heroComputer}
           alt="Computer"
         />
         <img
           className="w-[150px] h-auto absolute right-[16rem] top-[21rem] rotate-[25deg]"
-          src={hero_phone}
+          src={heroPhone}
           alt="Computer"
         />
-
-        {/* right: 16rem;
-    width: 150px;
-    top: 21rem;
-    height: auto;
-    transform: rotate(25deg); */}
 
         <p className="text-5xl uppercase font-eastbroadway text-white tracking-wider">
           &lt;Tech Enthusiast/&gt;
@@ -34,9 +27,8 @@ const Hero = () => {
         </h1>
         <p className="text-9xl uppercase font-muscle text-white mb-12">
           Web
-          {' '}
           <span className="text-primary-blue rounded-3xl px-5 border-primary-blue border-dashed border-4">
-            {' '}Developer{' '}
+            Developer
           </span>
         </p>
         <Button />
