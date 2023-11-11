@@ -13,7 +13,7 @@ The website is still under development.
 - 🌟 All icons are optimized through SVGOMG and added to an SVG sprite. <br>
 
 <h3>📝 To Do</h3>
-- 🌐 ~~Add a favicon.~~ <br>
+- 🌐 ~Add a favicon.~ <br>
 - 🛠️ Add tooltips to framework icons. <br>
 - 🖼️ Add a border to the Tailwind logo. <br>
 - 🌌 Add parallax effect to the background. <br>
