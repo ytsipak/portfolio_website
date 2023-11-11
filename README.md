@@ -13,12 +13,14 @@ The website is still under development.
 - 🌟 All icons are optimized through SVGOMG and added to an SVG sprite. <br>
 
 <h3>📝 To Do</h3>
+- 🖼️ Add a border to the Tailwind logo. <br>
+- 📱 Develop a responsive design for tablets. <br>
 - 🍔 Implement a burger menu for optimal navigation on mobile screens. <br>
-- 📱 Develop a responsive design for tablets.
 - 🖼️ Optimize images for Retina displays to enhance visual clarity. <br>
 - 📉 Decrease the size of background images for improved website performance. <br>
 - 🚀 Enhance the optimization of the Skills Section for a smoother user experience. <br>
 - 🧐 Refine and organize Tailwind classes for better code structure and readability. <br>
+
 
 <!-- Technologies -->
 ### Built With
