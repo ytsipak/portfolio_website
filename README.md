@@ -18,8 +18,9 @@ The website is still under development.
 - 🖼️ Add a border to the Tailwind logo. <br>
 - 🌌 Add parallax effect to the background. <br>
 - 📱 Develop a responsive design for tablets. <br>
-- 🍔 Implement a burger menu for optimal navigation on mobile screens. <br>
+- 📐 Adjust the line positioning in the 'Contact Section.' <br>
 - 🖼️ Optimize images for Retina displays to enhance visual clarity. <br>
+- 🍔 Implement a burger menu for optimal navigation on mobile screens. <br>
 - 📉 Decrease the size of background images for improved website performance. <br>
 - 🚀 Enhance the optimization of the Skills Section for a smoother user experience. <br>
 - 🧐 Refine and organize Tailwind classes for better code structure and readability. <br>
