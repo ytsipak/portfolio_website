@@ -37,6 +37,51 @@ export const softSkills = [
   // { language: "Accounability", skill: "soft" },
 ];
 
+export const projectsInfo = [
+  {
+    imgUrl: beautyClinic,
+    alt: "Beauty Clinic Image",
+    title: "Beauty Zone",
+    description: "Responsive Web Design for a Cosmetology Clinic",
+    github: "https://github.com/ytsipak/beauty_zone",
+    liveUrl: "https://ytsipak.github.io/beauty_zone/",
+    langIcons: [
+      { url: icons + "#icon-html", lang: "html" },
+      { url: icons + "#icon-css", lang: "css" },
+      { url: icons + "#icon-sass", lang: "sass" },
+      { url: icons + "#icon-js", lang: "js" },
+    ],
+  },
+  {
+    imgUrl: bakeryShop,
+    alt: "Bakery Shop Image",
+    title: "Bakery Shop",
+    description: "Responsive Web Design for a Bakery Shop",
+    github: "https://github.com/ytsipak/shop_bakery",
+    liveUrl: "https://ytsipak.github.io/shop_bakery/",
+    langIcons: [
+      { url: icons + "#icon-html", lang: "html" },
+      { url: icons + "#icon-css", lang: "css" },
+      { url: icons + "#icon-sass", lang: "sass" },
+      { url: icons + "#icon-js", lang: "js" },
+    ],
+  },
+  {
+    imgUrl: marioWorld,
+    alt: "Mario World Image",
+    title: "Portfolio Website",
+    description: "Responsive Web Design for a Portfolio Website",
+    github: "https://github.com/ytsipak/portfolio_website",
+    liveUrl: "#",
+    langIcons: [
+      { url: icons + "#icon-react", lang: "html" },
+      { url: icons + "#icon-vite", lang: "vite" },
+      { url: icons + "#icon-js", lang: "js" },
+      { url: icons + "#icon-tailwind", lang: "tailwind" },
+    ],
+  },
+];
+
 export const contactIcons = [
   {
     href: "mailto:ytsipak@gmail.com",
@@ -53,39 +98,4 @@ export const contactIcons = [
     fill: "primary-yellow",
     path: icons + "#icon-linkedin",
   },
-];
-
-export const projectsInfo = [
-  {
-    imgUrl: beautyClinic,
-    alt: "Beauty Clinic Image",
-    title: "Beauty Zone",
-    description: "Responsive Web Design for a Cosmetology Clinic",
-  },
-  {
-    imgUrl: bakeryShop,
-    alt: "Bakery Shop Image",
-    title: "Bakery Shop",
-    description: "Responsive Web Design for a Bakery Shop",
-  },
-  {
-    imgUrl: marioWorld,
-    alt: "Mario World Image",
-    title: "Portfolio Website",
-    description: "Responsive Web Design for a Portfolio Website",
-  },
-];
-
-export const langIcons = [
-  { url: icons + "#icon-react", lang: "html" },
-  { url: icons + "#icon-vite", lang: "vite" },
-  { url: icons + "#icon-js", lang: "js" },
-  { url: icons + "#icon-tailwind", lang: "tailwind" },
-];
-
-export const langIconsTop = [
-  { url: icons + "#icon-html", lang: "html" },
-  { url: icons + "#icon-css", lang: "css" },
-  { url: icons + "#icon-sass", lang: "sass" },
-  { url: icons + "#icon-js", lang: "js" },
 ];

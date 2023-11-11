@@ -19,6 +19,16 @@ export default {
         "secondary-darkgrey": "#242424",
         "secondary-black": "#141616",
       },
+      keyframes: {
+        slowPulse: {
+          "50%": {
+            opacity: 0.5,
+          },
+        },
+      },
+      animation: {
+        slowPulse: "slowPulse 3s cubic-bezier(0.4, 0, 0.6, 0.9) infinite",
+      },
     },
   },
   plugins: [],

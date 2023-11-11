@@ -44,15 +44,15 @@
 
 @layer components {
   .title {
-    @apply text-9xl font-muscle;
+    @apply text-9xl font-muscle max-sm:text-6xl max-sm:text-center;
   }
 
   .title-border {
-    @apply border-4 border-black border-dashed rounded-3xl px-5;
+    @apply border-4 border-black border-dashed rounded-3xl px-5 max-sm:rounded-md max-sm:px-2 max-sm:py-1;
   }
 
   .section {
-    @apply bg-secondary-darkgrey p-24 uppercase;
+    @apply bg-secondary-darkgrey p-24 uppercase max-sm:p-12 max-sm:px-6;
   }
 
   .hero-gradient {

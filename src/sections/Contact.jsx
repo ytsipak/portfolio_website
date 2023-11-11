@@ -3,15 +3,15 @@ import {contactIcons} from '../constants';
 
 const Contact = () => {
   return (
-    <section id="Contact">
+    <section className="relative" id="Contact">
       <div className="wrapper">
-        <h2 className="title text-center mb-52">
+        <h2 className="title text-center mb-52 max-sm:mb-16 after:left-[15%] after:right-[15%] after:top-[9rem] after:content-[''] after:border-white/20 after:border-2 after:absolute">
           Get
           <span className="text-primary-pink"> in Touch</span>
           <br />
           with <span className="text-primary-blue"> Me</span>
         </h2>
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center max-sm:flex-col max-sm:gap-2">
           <p className="uppercase font-muscle text-3xl">ytsipak</p>
           <p className="text-center text-secondary-grey capitalize">
             &copy; Copyright 2023 Yuriy Tsipak. All right reserved.
