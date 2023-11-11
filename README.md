@@ -25,6 +25,7 @@ The website is still under development.
 
 <!-- Images -->
 ### [Live Website](#)
-![portfolio website](https://github.com/ytsipak/portfolio_website/assets/122310792/47ea4075-b748-418d-abcb-6e65db4c8f70)
+![portfolio website](https://github.com/ytsipak/portfolio_website/assets/122310792/d9a0159d-5835-4c7e-8e34-b53d0d07a554)
+
 
 
