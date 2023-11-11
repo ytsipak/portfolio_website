@@ -13,12 +13,12 @@ The website is still under development.
 - 🌟 All icons are optimized through SVGOMG and added to an SVG sprite. <br>
 
 <h3>📝 To Do</h3> 
-- 🌐 ̶A̶d̶d̶ ̶a̶ ̶f̶a̶v̶i̶c̶o̶n̶. <br>
+- 🌐 ̶_Add a favicon. (done)_ <br>
 - 🛠️ Add tooltips to framework icons. <br>
 - 🖼️ Add a border to the Tailwind logo. <br>
 - 🌌 Add parallax effect to the background. <br>
 - 📱 Develop a responsive design for tablets. <br>
-- 📐  ̶A̶d̶j̶u̶s̶t̶ ̶t̶h̶e̶ ̶l̶i̶n̶e̶ ̶p̶o̶s̶i̶t̶i̶o̶n̶i̶n̶g̶ ̶i̶n̶ ̶t̶h̶e̶ ̶'̶C̶o̶n̶t̶a̶c̶t̶ ̶S̶e̶c̶t̶i̶o̶n̶.̶' <br>
+- 📐 _Adjust the line positioning in the 'Contact Section'. (done)_ <br>
 - 🖼️ Optimize images for Retina displays to enhance visual clarity. <br>
 - 🍔 Implement a burger menu for optimal navigation on mobile screens. <br>
 - 📉 Decrease the size of background images for improved website performance. <br>
