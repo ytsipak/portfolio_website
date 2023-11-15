@@ -21,7 +21,7 @@ The website is still under development.
 - 📐 Adjust the line positioning in the 'Contact Section'. ✅DONE✅ <br>
 - 🖼️ Optimize images for Retina displays to enhance visual clarity. <br>
 - 🍔 Implement a burger menu for optimal navigation on mobile screens. <br>
-- 📉 Decrease the size of background images for improved website performance. <br>
+- 📉 Decrease the size of background images for improved website performance. ✅DONE✅ <br>
 - 🚀 Enhance the optimization of the Skills Section for a smoother user experience. <br>
 - 🧐 Refine and organize Tailwind classes for better code structure and readability. <br>
 
