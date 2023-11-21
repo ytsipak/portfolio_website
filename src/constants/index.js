@@ -9,9 +9,10 @@ export const navLinks = [
   { href: "#Contact", label: "Contact" },
 ];
 
-export const Skils = [
+export const skillsArray = [
   {
-    hardSkills: [
+    title: "Hard Skills",
+    skillsInfo: [
       {
         language: "html",
         skill: "hard",
@@ -43,7 +44,10 @@ export const Skils = [
         iconUrl: icons + "#icon-js",
       },
     ],
-    softSkills: [
+  },
+  {
+    title: "SoftSkills",
+    skillsInfo: [
       {
         language: "Leadership",
         skill: "soft",
@@ -62,57 +66,6 @@ export const Skils = [
     ],
   },
 ];
-
-// export const hardSkills = [
-//   {
-//     language: "html",
-//     skill: "hard",
-//     iconUrl: icons + "#icon-html",
-//   },
-//   {
-//     language: "css",
-//     skill: "hard",
-//     iconUrl: icons + "#icon-css",
-//   },
-//   {
-//     language: "sass",
-//     skill: "hard",
-//     iconUrl: icons + "#icon-sass",
-//   },
-//   {
-//     language: "tailwind",
-//     skill: "hard",
-//     iconUrl: icons + "#icon-tailwind",
-//   },
-//   {
-//     language: "ReactJS",
-//     skill: "hard",
-//     iconUrl: icons + "#icon-react",
-//   },
-//   {
-//     language: "JavaScript",
-//     skill: "hard",
-//     iconUrl: icons + "#icon-js",
-//   },
-// ];
-
-// export const softSkills = [
-//   {
-//     language: "Leadership",
-//     skill: "soft",
-//     iconUrl: icons + "#icon-leadership",
-//   },
-//   {
-//     language: "Communication",
-//     skill: "soft",
-//     iconUrl: icons + "#icon-communication",
-//   },
-//   {
-//     language: "Teamwork",
-//     skill: "soft",
-//     iconUrl: icons + "#icon-handshake",
-//   },
-// ];
 
 export const projectsInfo = [
   {
@@ -156,6 +109,21 @@ export const projectsInfo = [
       { url: icons + "#icon-js", lang: "js" },
       { url: icons + "#icon-tailwind", lang: "tailwind" },
     ],
+  },
+];
+
+export const showcaseDetails = [
+  {
+    title: "Code",
+    githubIcon: {
+      url: icons + "#icon-github-simple",
+    },
+  },
+  {
+    title: "Live Demo",
+    githubIcon: {
+      url: icons + "#icon-share",
+    },
   },
 ];
 

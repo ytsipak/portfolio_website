@@ -1,4 +1,4 @@
-import {projectsInfo} from '../constants';
+import {projectsInfo, showcaseDetails} from '../constants';
 import icons from '../assets/icons/icons.svg';
 
 const ProjectsCard = () => {
@@ -29,8 +29,8 @@ const ProjectsCard = () => {
                     <use href={langIcon.url} />
                   </svg>
                 ))}
-
             </div>
+            {/* optimize */}
             <div className="flex justify-center items-center gap-4">
               <a href={item.github} target="_blank">
                 <button className="text-black font-semibold flex justify-center items-center gap-2 py-2 px-4 bg-white/40 rounded-3xl hover:bg-white/50 transition-colors duration-300">
@@ -49,6 +49,7 @@ const ProjectsCard = () => {
                 </button>
               </a>
             </div>
+            {/* optimize */}
           </div>
         </article>
       ))}
