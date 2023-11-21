@@ -1,4 +1,4 @@
-import { beautyClinic, bakeryShop, marioWorld } from "../assets/images";
+import { beautyClinic, bakeryShopBlue, marioWorld } from "../assets/images";
 import icons from "../assets/icons/icons.svg";
 
 export const navLinks = [
@@ -9,33 +9,110 @@ export const navLinks = [
   { href: "#Contact", label: "Contact" },
 ];
 
-export const hardSkills = [
-  { language: "html", skill: "hard", iconUrl: icons + "#icon-html" },
-  { language: "css", skill: "hard", iconUrl: icons + "#icon-css" },
-  { language: "sass", skill: "hard", iconUrl: icons + "#icon-sass" },
-  { language: "tailwind", skill: "hard", iconUrl: icons + "#icon-tailwind" },
-  { language: "ReactJS", skill: "hard", iconUrl: icons + "#icon-react" },
-  { language: "JavaScript", skill: "hard", iconUrl: icons + "#icon-js" },
+export const Skils = [
+  {
+    hardSkills: [
+      {
+        language: "html",
+        skill: "hard",
+        iconUrl: icons + "#icon-html",
+      },
+      {
+        language: "css",
+        skill: "hard",
+        iconUrl: icons + "#icon-css",
+      },
+      {
+        language: "sass",
+        skill: "hard",
+        iconUrl: icons + "#icon-sass",
+      },
+      {
+        language: "tailwind",
+        skill: "hard",
+        iconUrl: icons + "#icon-tailwind",
+      },
+      {
+        language: "ReactJS",
+        skill: "hard",
+        iconUrl: icons + "#icon-react",
+      },
+      {
+        language: "JavaScript",
+        skill: "hard",
+        iconUrl: icons + "#icon-js",
+      },
+    ],
+    softSkills: [
+      {
+        language: "Leadership",
+        skill: "soft",
+        iconUrl: icons + "#icon-leadership",
+      },
+      {
+        language: "Communication",
+        skill: "soft",
+        iconUrl: icons + "#icon-communication",
+      },
+      {
+        language: "Teamwork",
+        skill: "soft",
+        iconUrl: icons + "#icon-handshake",
+      },
+    ],
+  },
 ];
 
-export const softSkills = [
-  {
-    language: "Leadership",
-    skill: "soft",
-    iconUrl: icons + "#icon-leadership",
-  },
-  {
-    language: "Communication",
-    skill: "soft",
-    iconUrl: icons + "#icon-communication",
-  },
-  {
-    language: "Teamwork",
-    skill: "soft",
-    iconUrl: icons + "#icon-handshake",
-  },
-  // { language: "Accounability", skill: "soft" },
-];
+// export const hardSkills = [
+//   {
+//     language: "html",
+//     skill: "hard",
+//     iconUrl: icons + "#icon-html",
+//   },
+//   {
+//     language: "css",
+//     skill: "hard",
+//     iconUrl: icons + "#icon-css",
+//   },
+//   {
+//     language: "sass",
+//     skill: "hard",
+//     iconUrl: icons + "#icon-sass",
+//   },
+//   {
+//     language: "tailwind",
+//     skill: "hard",
+//     iconUrl: icons + "#icon-tailwind",
+//   },
+//   {
+//     language: "ReactJS",
+//     skill: "hard",
+//     iconUrl: icons + "#icon-react",
+//   },
+//   {
+//     language: "JavaScript",
+//     skill: "hard",
+//     iconUrl: icons + "#icon-js",
+//   },
+// ];
+
+// export const softSkills = [
+//   {
+//     language: "Leadership",
+//     skill: "soft",
+//     iconUrl: icons + "#icon-leadership",
+//   },
+//   {
+//     language: "Communication",
+//     skill: "soft",
+//     iconUrl: icons + "#icon-communication",
+//   },
+//   {
+//     language: "Teamwork",
+//     skill: "soft",
+//     iconUrl: icons + "#icon-handshake",
+//   },
+// ];
 
 export const projectsInfo = [
   {
@@ -53,7 +130,7 @@ export const projectsInfo = [
     ],
   },
   {
-    imgUrl: bakeryShop,
+    imgUrl: bakeryShopBlue,
     alt: "Bakery Shop Image",
     title: "Bakery Shop",
     description: "Responsive Web Design for a Bakery Shop",
@@ -72,7 +149,7 @@ export const projectsInfo = [
     title: "Portfolio Website",
     description: "Responsive Web Design for a Portfolio Website",
     github: "https://github.com/ytsipak/portfolio_website",
-    liveUrl: "#",
+    liveUrl: "https://ytsipak.vercel.app",
     langIcons: [
       { url: icons + "#icon-react", lang: "html" },
       { url: icons + "#icon-vite", lang: "vite" },

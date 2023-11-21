@@ -3,14 +3,14 @@ import icons from '../assets/icons/icons.svg';
 
 const ProjectsCard = () => {
   return (
-    <div className="grid grid-cols-2 gap-4 overflow-hidden max-sm:grid-cols-1">
+    <div className="grid grid-cols-2 gap-4 overflow-hidden max-lg:grid-cols-1">
       {projectsInfo.map ((item, index) => (
         <article
           key={item.title}
-          className={`h-80 max-sm:h-auto rounded-3xl p-5 flex justify-center items-center text-black flex-col relative overflow-hidden ${index === 2 ? 'col-span-2  max-sm:col-span-1' : 'col-span-1'} bg-gradient-to-t from-transparent via-opacity-70 to-black`}
+          className={`h-80 max-sm:h-auto rounded-3xl p-5 flex justify-center items-center text-black flex-col relative overflow-hidden ${index === 2 ? 'col-span-2  max-lg:col-span-1' : 'col-span-1'} bg-gradient-to-t from-transparent via-opacity-70 to-black`}
         >
           <img
-            className={`absolute ${index === 1 ? '-top-44 max-sm:-top-0' : index === 2 ? '-top-32 max-sm:-top-0' : 'top-0'} bottom-0 left-0 right-0 h-auto max-sm:h-full w-full rounded-3xl opacity-30 hover:scale-110 hover:opacity-40 transition-all duration-500`}
+            className={`absolute ${index === 1 ? '-top-44 max-lg:-top-8' : index === 2 ? '-top-32 max-lg:-top-0' : 'top-0'} bottom-0 left-0 right-0 h-auto ${index === 1 ? 'max-sm:h-auto' : 'max-sm:h-full'} w-full rounded-3xl opacity-30 hover:scale-110 hover:opacity-40 transition-all duration-500`}
             src={item.imgUrl}
             alt={item.alt}
           />

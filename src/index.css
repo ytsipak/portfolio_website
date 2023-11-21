@@ -44,7 +44,7 @@
 
 @layer components {
   .title {
-    @apply text-9xl font-muscle max-sm:text-6xl max-sm:text-center;
+    @apply text-9xl font-muscle max-sm:text-6xl max-sm:text-center max-lg:text-8xl;
   }
 
   .title-border {
@@ -75,6 +75,3 @@
     @apply bg-[url('./assets/images/sunshinePink.png')];
   }
 }
-/* 
-left: calc(100% - 75%);
-top: 9%; */

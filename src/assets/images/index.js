@@ -1,14 +1,16 @@
-import computerCharacter from "./character_aboutSection.png";
-import beautyClinic from "./beautyClinic.png";
-import bakeryShop from "./bakeryShop.png";
-import marioWorld from "./marioWorld.png";
-import heroComputer from "../images/hero_computer.png";
-import heroPhone from "../images/hero_phone.png";
+import computerCharacter from "./character_aboutSection.webp";
+import beautyClinic from "./beautyClinic.jpg";
+// import bakeryShop from "./bakeryShop.png";
+import bakeryShopBlue from "../images/bakeryShopBlue.jpg";
+import marioWorld from "./marioWorld.jpg";
+import heroComputer from "../images/hero_computer.webp";
+import heroPhone from "../images/hero_phone.webp";
 
 export {
   computerCharacter,
   beautyClinic,
-  bakeryShop,
+  // bakeryShop,
+  bakeryShopBlue,
   marioWorld,
   heroComputer,
   heroPhone,

@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section className="relative" id="Contact">
       <div className="wrapper">
-        <h2 className="title text-center mb-52 max-sm:mb-16 after:max-sm:left-[15%] after:max-sm:right-[15%] after:max-sm:top-[9rem] after:max-sm:content-[''] after:max-sm:border-white/20 after:max-sm:border-2 after:max-sm:absolute">
+        <h2 className="title text-center mb-52 max-sm:mb-16 after:max-sm:left-[15%] after:max-sm:right-[15%] after:max-sm:top-[13rem] after:max-sm:content-[''] after:max-sm:border-white/20 after:max-sm:border-2 after:max-sm:absolute">
           Get
           <span className="text-primary-pink"> in Touch</span>
           <br />

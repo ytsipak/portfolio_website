@@ -19,14 +19,14 @@ const Hero = () => {
           alt="Computer"
         />
 
-        <p className="text-5xl uppercase font-eastbroadway text-white tracking-wider max-sm:text-xl">
+        <p className="text-5xl uppercase font-eastbroadway text-white tracking-wider max-sm:text-xl md:text-3xl">
           &lt;Tech Enthusiast/&gt;
         </p>
-        <h1 className="text-[180px] uppercase font-softsoul text-primary-yellow stroke-2 stroke-white [text-shadow:_10px_10px_#F5995B] [-webkit-text-stroke:_3px_black] leading-none mb-10 max-sm:text-[70px] max-sm:[text-shadow:_3px_3px_#F5995B] max-sm:mb-3">
+        <h1 className="text-[180px] uppercase font-softsoul text-primary-yellow stroke-2 stroke-white [text-shadow:_10px_10px_#F5995B] [-webkit-text-stroke:_3px_black] leading-none mb-10 max-sm:text-[70px] max-sm:[text-shadow:_3px_3px_#F5995B] max-sm:mb-3 md:text-[130px]">
           Ytsipak
         </h1>
-        <p className="text-9xl uppercase font-muscle text-white mb-12 max-sm:text-8xl max-sm:leading-[60px] max-sm:mb-6">
-          Web <br className="max-sm:block sm:hidden" />
+        <p className="text-9xl uppercase font-muscle text-white mb-12 max-sm:text-8xl max-sm:leading-[60px] max-sm:mb-6 md:text-8xl">
+          Web{' '}<br className="max-sm:block sm:hidden" />
           <span className="text-primary-blue rounded-3xl px-5 border-primary-blue border-dashed border-4 max-sm:text-5xl max-sm:rounded-md">
             Developer
           </span>
